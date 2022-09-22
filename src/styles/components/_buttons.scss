@@ -4,19 +4,4 @@
   &-primary {
     @apply bg-primary text-secondary;
   }
-  &-dark {
-    @apply bg-dark text-secondary;
-  }
-  &-dark-shade {
-    @apply bg-dark-shade text-secondary;
-  }
-  &-dark-outline {
-    @apply bg-secondary text-dark border-2 border-solid border-dark;
-  }
-  &-info {
-    @apply bg-info text-secondary;
-  }
-  &-warning {
-    @apply bg-warning text-secondary;
-  }
 }

@@ -24,7 +24,7 @@ module.exports = {
         success: "#00800A",
       },
       fontFamily: {
-        almari: ["Almarai", "sans-serif"],
+        Poppins: ["Poppins", "sans-serif"],
       },
       boxShadow: {
         "t-sm": "0 -1px 2px 0 rgb(0 0 0 / 0.05)",
