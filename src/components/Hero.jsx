@@ -1,5 +1,6 @@
 import React from "react"
 import { Cursor, useTypewriter } from "react-simple-typewriter"
+import BackgroundCircles from "./BackgroundCircles"
 
 const Hero = () => {
   const [text, count] = useTypewriter({
@@ -9,6 +10,7 @@ const Hero = () => {
   })
   return (
     <>
+      <BackgroundCircles />
       <div className="flex items-center text-2xl font-bold">
         <p>{text}</p>
         <Cursor cursorColor="#f7abba" />

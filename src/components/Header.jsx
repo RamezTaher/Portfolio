@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-20 py-1">
+    <header className="sticky top-0 z-20 py-2">
       <div className="container sm:mx-auto px-4 flex items-center justify-between">
         <motion.div
           initial={{
