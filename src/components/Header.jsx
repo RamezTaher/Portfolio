@@ -20,10 +20,15 @@ const Header = () => {
           transition={{
             duration: 1,
           }}
-          className="flex items-center"
+          className="flex items-center "
         >
           <SocialIcon
-            url="https://twitter.com/jaketrent"
+            url="https://www.facebook.com/Perfectbeiing/"
+            fgColor="gray"
+            bgColor="transparent"
+          />
+          <SocialIcon
+            url="https://www.instagram.com/ramez__taher/"
             fgColor="gray"
             bgColor="transparent"
           />
@@ -33,17 +38,12 @@ const Header = () => {
             bgColor="transparent"
           />
           <SocialIcon
-            url="https://twitter.com/jaketrent"
+            url="https://www.linkedin.com/in/ramez-taher-539bab216/"
             fgColor="gray"
             bgColor="transparent"
           />
           <SocialIcon
-            url="https://twitter.com/jaketrent"
-            fgColor="gray"
-            bgColor="transparent"
-          />
-          <SocialIcon
-            url="https://twitter.com/jaketrent"
+            url="https://github.com/RamezTaher"
             fgColor="gray"
             bgColor="transparent"
           />
