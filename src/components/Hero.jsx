@@ -29,10 +29,10 @@ const Hero = () => {
         </h1>
 
         <div>
-          <button className="btn-hero cursor-pointer">About</button>
-          <button className="btn-hero cursor-pointer">Experience</button>
-          <button className="btn-hero cursor-pointer">Skills</button>
-          <button className="btn-hero cursor-pointer">Projects</button>
+          <button className="btn-hero">About</button>
+          <button className="btn-hero">Experience</button>
+          <button className="btn-hero">Skills</button>
+          <button className="btn-hero">Projects</button>
         </div>
       </div>
     </div>
