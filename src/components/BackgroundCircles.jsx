@@ -13,7 +13,7 @@ const BackgroundCircles = () => {
         borderRadius: ["20%", "20%", "50%", "80%", "20%"],
       }}
       transition={{
-        duration: 2.5,
+        duration: 2,
       }}
       className="relative h-screen overflow-hidden"
     >
