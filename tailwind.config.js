@@ -18,7 +18,7 @@ module.exports = {
         dark: "#111",
         "dark-tint": "#E7E7E7",
         stroke: "#AFADAD",
-        gray: "#333",
+        gray: "#444",
         danger: "#D11317",
         warning: "#f7abba",
         success: "#00800A",
