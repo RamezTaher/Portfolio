@@ -3,7 +3,7 @@ import Hero from "../components/Hero"
 
 const HomePage = () => {
   return (
-    <main className="container sm:mx-auto px-4 snap-y snap-mandatory  z-0">
+    <main className="container sm:mx-auto px-4 ">
       <section>
         <Hero />
       </section>
