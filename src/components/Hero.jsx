@@ -11,7 +11,7 @@ const Hero = () => {
   })
   return (
     <div className="h-screen flex flex-col gap-y-8 justify-center items-center text-center overflow-hidden">
-      <div className="absolute w-full">
+      <div className="absolute w-full z-[2]">
         <BackgroundCircles />
       </div>
       <img
@@ -19,7 +19,7 @@ const Hero = () => {
         src={ramez}
         alt="Ramez"
       />
-      <div className=" flex flex-col items-center gap-2">
+      <div className=" flex flex-col items-center gap-2 z-[3]">
         <h2 className="text-md uppercase tracking-[15px] font-medium">
           Software Engineer
         </h2>
