@@ -18,9 +18,9 @@ module.exports = {
         dark: "#111",
         "dark-tint": "#E7E7E7",
         stroke: "#AFADAD",
-        gray: "#979797",
+        gray: "#333",
         danger: "#D11317",
-        warning: "#F6B12D",
+        warning: "#f7abba",
         success: "#00800A",
       },
       fontFamily: {
