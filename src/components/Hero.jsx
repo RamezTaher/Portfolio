@@ -9,8 +9,11 @@ const Hero = () => {
     delaySpeed: 1200,
   })
   return (
-    <div className="h-screen   flex-col space-y-8 items-center justify-center text-center overflow-hidden">
-      <BackgroundCircles />
+    <div className="h-screen flex flex-col justify-center items-center text-center overflow-hidden">
+      <div className="absolute w-full">
+        <BackgroundCircles />
+      </div>
+
       <h1 className="flex items-center text-2xl font-bold">
         <p>{text}</p>
         <Cursor cursorColor="#f7abba" />
