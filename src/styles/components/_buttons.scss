@@ -4,4 +4,7 @@
   &-primary {
     @apply bg-primary text-secondary;
   }
+  &-hero {
+    @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest;
+  }
 }
