@@ -8,7 +8,7 @@ const BackgroundCircles = () => {
         opacity: 0,
       }}
       animate={{
-        scale: [1, 1.4, 1.5, 1.4, 1],
+        scale: [1, 1.4, 1.5, 1.6, 1.5, 1.4, 1],
         opacity: [0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
         borderRadius: ["20%", "20%", "50%", "80%", "20%"],
       }}
