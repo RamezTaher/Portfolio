@@ -1,5 +1,6 @@
 import React from "react"
 import About from "../components/About"
+import Experiences from "../components/Experiences"
 import Hero from "../components/Hero"
 
 const HomePage = () => {
@@ -8,9 +9,11 @@ const HomePage = () => {
       <section className="snap-start">
         <Hero />
       </section>
-
       <section>
         <About />
+      </section>
+      <section>
+        <Experiences />
       </section>
     </main>
   )
