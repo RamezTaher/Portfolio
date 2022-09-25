@@ -15,20 +15,28 @@ const Hero = () => {
         src={ramez}
         alt="Ramez"
       />
-      <div className=" flex flex-col items-center gap-6">
+      <div className=" flex flex-col items-center">
         <h2 className="text-md uppercase tracking-[15px] font-medium">
           Software Engineer
         </h2>
-        <h1 className="flex items-center text-2xl font-bold gap-3">
-          <p className="text-5xl lg:text-6xl font-semibold px-10">{text}</p>
+        <h1 className="flex items-center text-2xl font-bold ">
+          <p className="text-5xl lg:text-6xl font-semibold px-6">{text}</p>
           <Cursor cursorColor="#f7abba" />
         </h1>
 
-        <div>
-          <button className="btn-hero">About</button>
-          <button className="btn-hero">Experience</button>
-          <button className="btn-hero">Skills</button>
-          <button className="btn-hero">Projects</button>
+        <div className="pt-4">
+          <a href="#about">
+            <button className="btn-hero">About</button>
+          </a>
+          <a href="#experience">
+            <button className="btn-hero">Experience</button>
+          </a>
+          <a href="#skills">
+            <button className="btn-hero">Skills</button>
+          </a>
+          <a href="#projects">
+            <button className="btn-hero">Projects</button>
+          </a>
         </div>
       </div>
     </div>
