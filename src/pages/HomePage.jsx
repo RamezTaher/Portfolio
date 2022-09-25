@@ -1,4 +1,5 @@
 import React from "react"
+import About from "../components/About"
 import Hero from "../components/Hero"
 
 const HomePage = () => {
@@ -6,6 +7,10 @@ const HomePage = () => {
     <main className="container sm:mx-auto px-4 ">
       <section>
         <Hero />
+      </section>
+
+      <section>
+        <About />
       </section>
     </main>
   )
