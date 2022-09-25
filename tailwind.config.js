@@ -20,7 +20,7 @@ module.exports = {
         stroke: "#AFADAD",
         gray: "#444",
         danger: "#D11317",
-        warning: "#f7abba",
+        warning: "#f7ab0a",
         success: "#00800A",
       },
       fontFamily: {
