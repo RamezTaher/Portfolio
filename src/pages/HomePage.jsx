@@ -4,8 +4,8 @@ import Hero from "../components/Hero"
 
 const HomePage = () => {
   return (
-    <main className="container sm:mx-auto px-4 ">
-      <section>
+    <main className="container sm:mx-auto px-4">
+      <section className="snap-start">
         <Hero />
       </section>
 
