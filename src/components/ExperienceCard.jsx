@@ -4,7 +4,7 @@ import ramez from "../assets/images/ram-1.jpg"
 
 const ExperienceCard = () => {
   return (
-    <article>
+    <article className="flex flex-col rounded-lg items-center gap-y-7 flex-shrink-0 w-[500px] md:w-[600px] lg:w-[900px] snap-center bg-[#292929] p-10">
       <motion.img
         initial={{
           y: -100,
@@ -45,7 +45,9 @@ const ExperienceCard = () => {
             className="h-10 w-10 rounded-full"
           />
         </div>
-        <p>Started work ... ended work ...</p>
+        <p className="uppercase py-5 text-gray">
+          Started work ... ended work ...
+        </p>
 
         <ul className="list-disc flex flex-col gap-4 ml-5 text-lg">
           <li>Summary points</li>
