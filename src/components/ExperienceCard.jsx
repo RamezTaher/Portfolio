@@ -4,7 +4,7 @@ import ramez from "../assets/images/ram-1.jpg"
 
 const ExperienceCard = () => {
   return (
-    <article className="flex flex-col rounded-lg items-center gap-y-7 flex-shrink-0 w-[500px] md:w-[600px] lg:w-[900px] snap-center bg-[#292929] p-10">
+    <article className="flex flex-col rounded-lg items-center gap-y-7 flex-shrink-0 w-[500px] md:w-[600px] lg:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100">
       <motion.img
         initial={{
           y: -100,
