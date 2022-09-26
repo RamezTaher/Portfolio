@@ -23,7 +23,28 @@ const ExperienceCard = () => {
       <div className="px-0 md:px-10 flex flex-col gap-2">
         <h4 className="text-4xl font-light">Fullstack Developer</h4>
         <p className="font-bold text-2xl">Ramez's Company</p>
-        <div className="flex items-center gap-2 ">{/* stack */}</div>
+        <div className="flex items-center gap-2 ">
+          <img
+            src={ramez}
+            alt="tech stack"
+            className="h-10 w-10 rounded-full"
+          />
+          <img
+            src={ramez}
+            alt="tech stack"
+            className="h-10 w-10 rounded-full"
+          />
+          <img
+            src={ramez}
+            alt="tech stack"
+            className="h-10 w-10 rounded-full"
+          />
+          <img
+            src={ramez}
+            alt="tech stack"
+            className="h-10 w-10 rounded-full"
+          />
+        </div>
         <p>Started work ... ended work ...</p>
 
         <ul className="list-disc flex flex-col gap-4 ml-5 text-lg">
