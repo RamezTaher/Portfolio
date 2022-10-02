@@ -20,7 +20,7 @@ const ExperienceCard = () => {
         alt="Company Name"
       />
 
-      <div className="px-0 md:px-10 flex flex-col gap-2">
+      <div className="px-0 md:px-4 flex flex-col gap-2">
         <h4 className="text-4xl font-light">Fullstack Developer</h4>
         <p className="font-bold text-2xl">Ramez's Company</p>
         <div className="flex items-center gap-2 ">

@@ -10,7 +10,7 @@ const HomePage = () => {
       <section className="snap-start">
         <Hero />
       </section>
-      <section id="about mt-50">
+      <section id="about" className="mt-50">
         <About />
       </section>
       <section id="experiences">
