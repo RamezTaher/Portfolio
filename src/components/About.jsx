@@ -9,7 +9,7 @@ const About = () => {
         opacity: 0,
       }}
       transition={{
-        duration: 1.5,
+        duration: 1.2,
       }}
       whileInView={{ opacity: 1 }}
       className="min-h-screen py-10 flex flex-col text-center md:text-left relative md:flex-row items-center justify-evenly "
