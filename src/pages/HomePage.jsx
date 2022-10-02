@@ -2,6 +2,7 @@ import React from "react"
 import About from "../components/About"
 import Experiences from "../components/Experiences"
 import Hero from "../components/Hero"
+import Projects from "../components/Projects"
 import Technologies from "../components/Technologies"
 
 const HomePage = () => {
@@ -18,6 +19,9 @@ const HomePage = () => {
       </section>
       <section id="technologies">
         <Technologies />
+      </section>
+      <section id="projects">
+        <Projects />
       </section>
     </main>
   )
