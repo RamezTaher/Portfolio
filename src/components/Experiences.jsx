@@ -12,9 +12,9 @@ const Experiences = () => {
         duration: 1.5,
       }}
       whileInView={{ opacity: 1 }}
-      className="h-screen flex flex-col text-left md:flex-row justify-evenly mx-auto items-center relative py-10 overflow-hidden"
+      className="min-h-screen flex flex-col text-left md:flex-row justify-evenly mx-auto items-center relative py-10 overflow-hidden"
     >
-      <h3 className="absolute top-8 uppercase tracking-[20px] text-2xl text-gray">
+      <h3 className="absolute top-1 uppercase tracking-[20px] text-2xl text-gray">
         Experiences
       </h3>
 

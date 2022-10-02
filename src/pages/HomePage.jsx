@@ -5,11 +5,11 @@ import Hero from "../components/Hero"
 
 const HomePage = () => {
   return (
-    <main className="container sm:mx-auto px-4">
+    <main className="container sm:mx-auto px-4 ">
       <section className="snap-start">
         <Hero />
       </section>
-      <section id="about">
+      <section id="about mt-50">
         <About />
       </section>
       <section id="experiences">

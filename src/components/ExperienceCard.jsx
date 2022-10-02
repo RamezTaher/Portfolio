@@ -4,7 +4,7 @@ import ramez from "../assets/images/ram-1.jpg"
 
 const ExperienceCard = () => {
   return (
-    <article className="flex flex-col rounded-lg items-center gap-y-7 flex-shrink-0 w-[500px] md:w-[600px] lg:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100">
+    <article className="flex flex-col rounded-lg items-center gap-y-7 flex-shrink-0 w-[300px] md:w-[400px] lg:w-[600px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img
         initial={{
           y: -100,
@@ -50,11 +50,22 @@ const ExperienceCard = () => {
         </p>
 
         <ul className="list-disc flex flex-col gap-4 ml-5 text-lg">
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
+          <li className="list-disc">
+            Summary points Summary points Summary points Summary points Summary
+            points Summary points Summary points
+          </li>
+          <li className="list-disc">
+            Summary points Summary points Summary points Summary points Summary
+            points Summary points Summary points
+          </li>
+          <li className="list-disc">
+            Summary points Summary points Summary points Summary points Summary
+            points Summary points Summary points
+          </li>
+          <li className="list-disc">
+            Summary points Summary points Summary points Summary points Summary
+            points Summary points Summary points
+          </li>
         </ul>
       </div>
     </article>

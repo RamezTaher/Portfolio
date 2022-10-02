@@ -10,7 +10,7 @@ const Hero = () => {
     delaySpeed: 1200,
   })
   return (
-    <div className="h-screen flex flex-col gap-y-8 justify-center items-center text-center  ">
+    <div className="h-screen flex flex-col gap-y-8 justify-center items-center text-center overflow-hidden  ">
       <BackgroundCircles />
       <div className="z-10">
         <img

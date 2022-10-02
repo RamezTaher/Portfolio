@@ -15,7 +15,7 @@ const BackgroundCircles = () => {
       transition={{
         duration: 2,
       }}
-      className="absolute h-[800px] w-[800px] overflow-hidden"
+      className="absolute h-screen w-[800px] overflow-hidden"
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border border-solid  border-gray rounded-full h-[400px] w-[400px]  animate-ping"></div>
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border border-solid  border-gray rounded-full h-[600px] w-[600px] "></div>

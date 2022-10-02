@@ -12,7 +12,7 @@ const About = () => {
         duration: 1.5,
       }}
       whileInView={{ opacity: 1 }}
-      className="h-screen py-10 flex flex-col text-center md:text-left relative md:flex-row items-center justify-evenly "
+      className="min-h-screen py-10 flex flex-col text-center md:text-left relative md:flex-row items-center justify-evenly "
     >
       <h3 className="absolute top-8 uppercase tracking-[20px] text-2xl text-gray">
         About
